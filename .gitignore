@@ -1,0 +1,37 @@
+# Ignore vendor directories
+/vendor/
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+thumbs.db
+.DS_Store
+
+# Ignore environment-specific files
+.env
+.env.example
+
+# Ignore logs and cache files
+/logs/
+/cache/
+
+# Ignore database files
+*.sql
+
+# Ignore compiled files
+*.log
+*.gz
+*.zip
+*.rar
+
+# Ignore dependency management files
+composer.lock
+npm-debug.log
